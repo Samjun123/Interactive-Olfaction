@@ -1,0 +1,123 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url(../images/bg1.jpg);
+}
+
+/* navbar */
+.container-fluid {
+  padding: 1% 15%;
+}
+
+.navbar {
+  padding: 0.5rem 0 0.5rem;
+}
+
+.navbar-brand {
+  font-family: 'ubuntu';
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 90%;
+  padding: 0 0 0 2%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 8px 0 0;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  background-color: transparent;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link:hover, .nav-link:focus, .active {
+  border-bottom: 0.125rem solid black;
+}
+
+/* end of navbar */
+/* highlights */
+.site-carousel {
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+.nounderline {
+  color: white;
+  text-decoration: none !important
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  opacity: 0.8;
+  background-color: #ef8172;
+  border-bottom: 0;
+  height: 50vh;
+  overflow-y: hidden;
+}
+
+.welcome-img {
+  width: 10%;
+  margin: 20px;
+}
+
+/* end of highlights */
+/* new uploads */
+.event-logo, .resource-logo, .blog-logo{
+  font-size: 30px;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.event-card {
+  border: black solid;
+  border-width: medium;
+  border-color: #84d9ff;
+}
+
+.event-logo-box {
+  background-color: #84d9ff;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.event-box {
+  background-color: #bbeaff;
+}
+
+.resource-card {
+  border: black solid;
+  border-width: medium;
+  border-color: #90f0b4;
+}
+
+.resource-logo-box {
+  background-color: #90f0b4;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.resource-box {
+  background-color: #caffde;
+}
+
+.blog-card {
+  border: black solid;
+  border-width: medium;
+  border-color: #dbb0f6;
+}
+
+.blog-logo-box {
+  background-color: #dbb0f6;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.blog-box {
+  background-color: #ecd0ff;
+}
