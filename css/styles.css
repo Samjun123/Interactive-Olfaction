@@ -3,6 +3,18 @@ body {
   background: url(../images/bg1.jpg);
 }
 
+/* .transparent {
+  max-width: 650px;
+
+position: relative;
+display: block;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: rbga(255, 255, 255,.4);
+} */
+
+
 /* navbar */
 .container-fluid {
   padding: 1% 15%;
@@ -120,4 +132,21 @@ body {
 
 .blog-box {
   background-color: #ecd0ff;
+}
+
+.image {
+  background-image: url(../images/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 50px 0 50px;
+  padding: 0 15%;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  background: white;
 }

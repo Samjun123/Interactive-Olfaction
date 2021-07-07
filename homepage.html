@@ -27,175 +27,183 @@
 
 <body>
 
-  <!-- Nav Bar -->
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="homepage.html">Interactive<br>Olfaction</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="homepage.html"><i class="nav-icon fas fa-home"></i> Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="nav-icon fas fa-calendar-week"></i> Events
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Studio TEI 2019</a></li>
-              <li><a class="dropdown-item" href="#">CHI STT 2021</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Sharing Sessions</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blogs.html"><i class="fas fa-archive"></i> Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blogs.html"><i class="nav-icon fas fa-book"></i> Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href=""><i class="nav-icon fas fa-user"></i> Contact</a>
-          </li>
-        </ul>
+  <div class="transparent">
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="homepage.html">Interactive<br>Olfaction</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="homepage.html"><i class="nav-icon fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="nav-icon fas fa-calendar-week"></i> Events
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="1.events/allevents.html"><strong>All events</strong></a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="1.events/collaboration/collaboration.html"><strong>Collaboration</strong></a></li>
+                <li><a class="dropdown-item" href="1.events/collaboration/STEI2019.html">Studio TEI 2019</a></li>
+                <li><a class="dropdown-item" href="1.events/collaboration/CHI2021.html">CHI STT 2021</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="1.events/sharing/sharingsessions.html"><strong>Sharing Sessions</strong></a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="2.resource/resource.html"><i class="fas fa-archive"></i> Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="3.blog/blogs.html"><i class="nav-icon fas fa-book"></i> Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><i class="nav-icon fas fa-user"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Nav Bar -->
+
+    <!-- Highlight -->
+    <section class="site-carousel container-fluid">
+      <div id="highlights" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#highlights" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#highlights" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h3>Hello! Interactive Olfaction website has been redesigned recently, feel free to browse around and share some of your precious feedbacks with our developers. Your support is our biggest motivation.</h3>
+            <img class="welcome-img" src="images/welcome.png" alt="welcome-img">
+            <em>Xingjian, IO Webdev Team</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h1>Meet the team behind this website</h1><br><br>
+            <a class="btn btn-outline-light btn-lg" href="blogs.html" role="button"><i class="fas fa-angle-right"></i> Learn more</a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#highlights" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#highlights" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </nav>
+    </section>
+    <!--End of Highlight -->
+
+    <!-- New uploads -->
+    <section class="container-fluid">
+      <h3><i class="far fa-handshake"></i> <u>Upcoming Events</u></h3>
+
+      <div class="card mb-3 event-card" style="max-width: 75%;">
+        <div class="row g-0">
+          <div class="col-md-1 event-logo-box">
+            <i class="fas fa-chalkboard-teacher event-logo"></i>
+          </div>
+          <div class="col-md-11 event-box">
+            <div class="card-body" style="padding: 5px;">
+              <h5 class="card-title" style="margin-bottom: 0px;">event name</h5>
+              <p class="card-text">Event description. Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 event-card" style="max-width: 75%;">
+        <div class="row g-0">
+          <div class="col-md-1 event-logo-box">
+            <i class="fas fa-chalkboard-teacher event-logo"></i>
+          </div>
+          <div class="col-md-11 event-box">
+            <div class="card-body" style="padding: 5px;">
+              <h5 class="card-title" style="margin-bottom: 0px;">event name</h5>
+              <p class="card-text">Event description. Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 event-card" style="max-width: 75%;">
+        <div class="row g-0">
+          <div class="col-md-1 event-logo-box">
+            <i class="fas fa-chalkboard-teacher event-logo"></i>
+          </div>
+          <div class="col-md-11 event-box">
+            <div class="card-body" style="padding: 5px;">
+              <h5 class="card-title" style="margin-bottom: 0px;">event name</h5>
+              <p class="card-text">Event description. Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3><u><i class="far fa-bell"></i> New uploads</u></h3>
+
+      <div class="card mb-3 resource-card" style="max-width: 75%;">
+        <div class="row g-0">
+          <div class="col-md-1 resource-logo-box">
+            <i class="fas fa-archive resource-logo"></i>
+          </div>
+          <div class="col-md-11 resource-box">
+            <div class="card-body" style="padding: 5px;">
+              <h5 class="card-title" style="margin-bottom: 0px;">resource title</h5>
+              <p class="card-text">resource description. Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 blog-card" style="max-width: 75%;">
+        <div class="row g-0">
+          <div class="col-md-1 blog-logo-box">
+            <i class="nav-icon fas fa-book blog-logo"></i>
+          </div>
+          <div class="col-md-11 blog-box">
+            <div class="card-body" style="padding: 5px;">
+              <h5 class="card-title" style="margin-bottom: 0px;">blog title</h5>
+              <p class="card-text">blog description. Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 resource-card" style="max-width: 75%;">
+        <div class="row g-0">
+          <div class="col-md-1 resource-logo-box">
+            <i class="fas fa-archive resource-logo"></i>
+          </div>
+          <div class="col-md-11 resource-box">
+            <div class="card-body" style="padding: 5px;">
+              <h5 class="card-title" style="margin-bottom: 0px;">resource title</h5>
+              <p class="card-text">resource description. Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 blog-card" style="max-width: 75%;">
+        <div class="row g-0">
+          <div class="col-md-1 blog-logo-box">
+            <i class="nav-icon fas fa-book blog-logo"></i>
+          </div>
+          <div class="col-md-11 blog-box">
+            <div class="card-body" style="padding: 5px;">
+              <h5 class="card-title" style="margin-bottom: 0px;">blog title</h5>
+              <p class="card-text">blog description. Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </div>
-  <!-- Nav Bar -->
-
-  <!-- Highlight -->
-  <section class="site-carousel container-fluid">
-    <div id="highlights" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#highlights" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#highlights" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <h3>Hello! Interactive Olfaction website has been redesigned recently, feel free to browse around and share some of your precious feedbacks with our developers. Your support is our biggest motivation.</h3>
-          <img class="welcome-img" src="images/welcome.png" alt="welcome-img">
-          <em>Xingjian, IO Webdev Team</em>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h1>Meet the team behind this website</h1><br><br>
-          <a class="btn btn-outline-light btn-lg" href="blogs.html" role="button"><i class="fas fa-angle-right"></i> Learn more</a>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#highlights" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#highlights" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
-  <!--End of Highlight -->
-
-  <!-- New uploads -->
-  <section class="container-fluid">
-    <h3><i class="far fa-handshake"></i> <u>Upcoming Events</u></h3>
-
-    <div class="card mb-3 event-card" style="max-width: 75%;">
-      <div class="row g-0">
-        <div class="col-md-1 event-logo-box">
-          <i class="fas fa-chalkboard-teacher event-logo"></i>
-        </div>
-        <div class="col-md-11 event-box">
-          <div class="card-body" style="padding: 5px;">
-            <h5 class="card-title" style="margin-bottom: 0px;">event name</h5>
-            <p class="card-text">Event description. Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card mb-3 event-card" style="max-width: 75%;">
-      <div class="row g-0">
-        <div class="col-md-1 event-logo-box">
-          <i class="fas fa-chalkboard-teacher event-logo"></i>
-        </div>
-        <div class="col-md-11 event-box">
-          <div class="card-body" style="padding: 5px;">
-            <h5 class="card-title" style="margin-bottom: 0px;">event name</h5>
-            <p class="card-text">Event description. Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card mb-3 event-card" style="max-width: 75%;">
-      <div class="row g-0">
-        <div class="col-md-1 event-logo-box">
-          <i class="fas fa-chalkboard-teacher event-logo"></i>
-        </div>
-        <div class="col-md-11 event-box">
-          <div class="card-body" style="padding: 5px;">
-            <h5 class="card-title" style="margin-bottom: 0px;">event name</h5>
-            <p class="card-text">Event description. Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <h3><u><i class="far fa-bell"></i> New uploads</u></h3>
-
-    <div class="card mb-3 resource-card" style="max-width: 75%;">
-      <div class="row g-0">
-        <div class="col-md-1 resource-logo-box">
-          <i class="fas fa-archive resource-logo"></i>
-        </div>
-        <div class="col-md-11 resource-box">
-          <div class="card-body" style="padding: 5px;">
-            <h5 class="card-title" style="margin-bottom: 0px;">resource title</h5>
-            <p class="card-text">resource description. Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card mb-3 blog-card" style="max-width: 75%;">
-      <div class="row g-0">
-        <div class="col-md-1 blog-logo-box">
-          <i class="nav-icon fas fa-book blog-logo"></i>
-        </div>
-        <div class="col-md-11 blog-box">
-          <div class="card-body" style="padding: 5px;">
-            <h5 class="card-title" style="margin-bottom: 0px;">blog title</h5>
-            <p class="card-text">blog description. Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card mb-3 resource-card" style="max-width: 75%;">
-      <div class="row g-0">
-        <div class="col-md-1 resource-logo-box">
-          <i class="fas fa-archive resource-logo"></i>
-        </div>
-        <div class="col-md-11 resource-box">
-          <div class="card-body" style="padding: 5px;">
-            <h5 class="card-title" style="margin-bottom: 0px;">resource title</h5>
-            <p class="card-text">resource description. Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card mb-3 blog-card" style="max-width: 75%;">
-      <div class="row g-0">
-        <div class="col-md-1 blog-logo-box">
-          <i class="nav-icon fas fa-book blog-logo"></i>
-        </div>
-        <div class="col-md-11 blog-box">
-          <div class="card-body" style="padding: 5px;">
-            <h5 class="card-title" style="margin-bottom: 0px;">blog title</h5>
-            <p class="card-text">blog description. Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
 
 </body>
